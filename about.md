@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: 关于我
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+2007毕业后在aten从事C#开发。
+2010年初加入Newegg美国研发部，并转向移动平台开发，负责ios,android平台研发工作。
+2012年初与新蛋同事一起创业做今夜酒店特价，公司ios平台技术负责人。
+2014年初公司被京东收购，加入在京东。参与“京东到家”O2O项目，担任移动平台项目负责人。
+2015年与之前团队再次创业做“Get一下”项目，目前是公司移动平台负责人。
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+对ios、android、ruby、java、react native领域都很感兴趣。
