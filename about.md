@@ -1,15 +1,19 @@
 ---
 layout: page
-title: 关于我
-permalink: /about/
+title: About Me
+menu: about
+subtitle:   <h3>Download My CV</h3>
+            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
+                <span class="flag-icon flag-icon-bl"></span> Français
+            </a>
+            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
+                <span class="flag-icon flag-icon-gb"></span> English
+            </a>
+            <a role="button" class="btn btn-primary hvr-grow-shadow" href="/assets/files/CV_Chuan_Dong_FR.pdf" target="_blanks">
+                <span class="flag-icon flag-icon-cn"></span> 中文
+            </a>
+                            
+css: ['about.css', 'sidebar-popular-repo.css', '../../bower_components/flag-icon-css/css/flag-icon.min.css']
 ---
 
-2007毕业后在aten从事C#开发。
-
-2010年初加入Newegg美国研发部，并转向移动平台开发，负责ios,android平台研发工作。
-
-2012年初与新蛋同事一起创业做今夜酒店特价，公司ios平台技术负责人。
-
-2014年初公司被京东收购，加入在京东。参与“京东到家”O2O项目，担任移动平台项目负责人。
-
-2015年与之前团队再次创业做“Get一下”项目，目前是公司移动平台负责人。
+{% include about.html %}
