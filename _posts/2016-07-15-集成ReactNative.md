@@ -2,17 +2,16 @@
 
 1. 创建package.json
 
-![](http://ww3.sinaimg.cn/mw690/6314d064gw1f69dnm7bqhj20u40byjtp.jpg)
+	![](http://ww3.sinaimg.cn/mw690/6314d064gw1f69dnm7bqhj20u40byjtp.jpg)
 2. 执行npm install安装react-native包依赖
 3. 编辑或创建Podfile，新增React引用
 
-![](http://ww4.sinaimg.cn/mw690/6314d064gw1f69do5sm0lj20vq0cqgq1.jpg)
+	![](http://ww4.sinaimg.cn/mw690/6314d064gw1f69do5sm0lj20vq0cqgq1.jpg)
 4. 执行pod install --verbose --no-repo-update
 
-![](http://ww4.sinaimg.cn/mw690/6314d064gw1f69domza71j20r80n0ais.jpg)
+	![](http://ww4.sinaimg.cn/mw690/6314d064gw1f69domza71j20r80n0ais.jpg)
 5. 创建一个文件夹来存放应用的React代码
 6. 然后新建一个简单的testview.ios.js文件
-
 
 	$ mkdir ReactComponent
 
@@ -21,7 +20,7 @@
 
 7. 编辑testview.ios.js
 
-![](http://ww4.sinaimg.cn/mw690/6314d064gw1f69dp2gew0j218u14wk27.jpg)
+	![](http://ww4.sinaimg.cn/mw690/6314d064gw1f69dp2gew0j218u14wk27.jpg)
 8. 开启React Native开发服务器
 
     (JS_DIR=`pwd`/ReactComponent; cd node_modules/react-native; npm run start -- --root $JS_DIR)
@@ -29,7 +28,7 @@
     这条命令会启动一个React Native开发服务器，用于构建我们的bundle文件。--root选项用来标明你的React Native应用所在的根目录。在我们这里是ReactComponents目录，里面有一个index.ios.js文件。开发服务器启动后会打包出index.ios.bundle文件来，并可以通过http://localhost:8081/index.ios.bundle来访问。
 9. xcode项目中添加react native模块组件
 
-![](http://ww1.sinaimg.cn/mw690/6314d064gw1f69ds3hdmkj21kw0njtkh.jpg)
+	![](http://ww1.sinaimg.cn/mw690/6314d064gw1f69ds3hdmkj21kw0njtkh.jpg)
 
 10. 模拟器运行程序
 
@@ -48,7 +47,6 @@
 
 * 执行npm start命令打包程序
 * 运行下载main.jsbundle到本地 http://localhost:8081/index.ios.bundle -o main.jsbundle
-
 
 	![](http://ww3.sinaimg.cn/mw690/6314d064gw1f6ebnadhtfj20r80n0jx1.jpg)
 
