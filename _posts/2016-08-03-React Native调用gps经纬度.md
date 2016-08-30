@@ -6,7 +6,7 @@
 onPress={this.onLocationPressed.bind(this)}
 3. 将下面的代码添加到 SearchPage 类中：
 
-```javascript
+  ```javascript
 onLocationPressed() {
   navigator.geolocation.getCurrentPosition(
     location => {
@@ -21,7 +21,7 @@ onLocationPressed() {
       });
     });
 }
-```
+  ```
 
 * 通过 navigator.geolocation 检索当前位置；这是一个 Web API 所定义的接口，所以对于每个在浏览器中使用 location 服务的用户来说这个接口都应该是一致的。React Native 框架借助原生的 iOS location 服务提供了自身的 API 实现。
 
