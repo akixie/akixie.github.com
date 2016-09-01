@@ -17,7 +17,7 @@ title: 谢传发
 email: aki.c.xie@gmail.com
 description: > # 谢传发个人博客 "baseurl:"
   主要领域ios、android、ruby、java、react native.
-baseurl: "https://akixie.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://akixie.github.io/" # the base hostname & protocol for your site
 twitter_username: akixie1
 github_username:  akixie
