@@ -1,5 +1,11 @@
+---
+layout: post
+title: "突破NavigationBar Button的Margin限制"
+comments: true
+description: ""
+keywords: "ios"
+---
 
-# 突破NavigationBar Button的Margin限制
 
 参考：<http://stackoverflow.com/questions/4715280/placing-a-custom-view-based-uibarbuttonitem-in-the-navigation-bar-without-defaul>
 

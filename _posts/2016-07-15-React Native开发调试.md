@@ -1,4 +1,10 @@
-# ReactNative调试
+---
+layout: post
+title: "React Native开发调试"
+comments: true
+description: ""
+keywords: "React Native"
+---
 
 ## 调试基本介绍
 

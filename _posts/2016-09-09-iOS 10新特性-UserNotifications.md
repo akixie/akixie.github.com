@@ -1,4 +1,11 @@
-# iOS 10新特性-UserNotifications
+---
+layout: post
+title: "iOS 10新特性-UserNotifications"
+comments: true
+description: ""
+keywords: "ios10, UserNotifications"
+---
+
 > iOS 10 SDK 对Push这块进行了IOS最大的一次重构，现在开发者可以使用独立的 UserNotifications.framework 来集中管理和使用 iOS 系统中通知的功能。
 ***
 > 在原有基础上增加了在通知中展示图片、视频，Action, 自定义通知 UI 等一系列新功能，非常强大。此外还支持撤回单条通知，更新已展示通知，中途修改通知内容。
@@ -83,10 +90,6 @@
 
 	<https://developer.apple.com/videos/play/wwdc2016/708/>
 
-* UserNotifications 
+* UserNotifications
 
 	<https://developer.apple.com/reference/usernotifications>
-
-
-
-

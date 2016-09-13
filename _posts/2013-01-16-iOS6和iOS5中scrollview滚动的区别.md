@@ -1,5 +1,11 @@
+---
+layout: post
+title: "iOS6和iOS5中scrollview滚动的区别"
+comments: true
+description: ""
+keywords: "ios"
+---
 
-# iOS6和iOS5中scrollview滚动的区别
 
 通常在scrollView滚动停止时添加逻辑是加在`scrollViewDidEndDecelerating`方法中，但是今天在一台iOS6的机器中出现了问题，调试发现当平稳拖动scrollView的时候这个方法没有执行。然后调试另外一个方法：
 

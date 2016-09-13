@@ -1,5 +1,11 @@
+---
+layout: post
+title: "MKMapView自定义pin位置对齐"
+comments: true
+description: ""
+keywords: "ios"
+---
 
-# MKMapView自定义pin位置对齐
 
 原文：<http://blog.csdn.net/favormm/article/details/6191109>
 

@@ -1,5 +1,11 @@
+---
+layout: post
+title: "改变search bar里面的cancel文字和no results文字"
+comments: true
+description: ""
+keywords: "ios"
+---
 
-# 改变search bar里面的cancel文字和no results文字
 
 如果不需要国际化的话把这两个文字改为中文很方便，之前都是在控件中遍历，其实完全没那么麻烦。只需要在info.plist文件中加入一条：
 

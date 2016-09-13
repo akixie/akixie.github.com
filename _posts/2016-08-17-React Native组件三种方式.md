@@ -1,4 +1,10 @@
-# React Native组件三种方式
+---
+layout: post
+title: "React Native组件三种方式"
+comments: true
+description: ""
+keywords: "React Native, 组件"
+---
 
 ## 1.最常见是react native系统封装好的
   * 比如View,Text,Image等等

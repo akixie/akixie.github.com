@@ -1,5 +1,10 @@
-
-# 改变search bar中search button的样式
+---
+layout: post
+title: "改变search bar中search button的样式"
+comments: true
+description: ""
+keywords: "ios"
+---
 
 参考：<http://stackoverflow.com/questions/1200149/styling-the-cancel-button-in-a-uisearchbar#comment13119050_10108613>
 

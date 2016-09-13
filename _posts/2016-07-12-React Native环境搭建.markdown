@@ -1,4 +1,10 @@
-# ReactNative环境搭建
+---
+layout: post
+title: "ReactNative环境搭建"
+comments: true
+description: ""
+keywords: "React Native"
+---
 
 
 基于MAC+IOS环境

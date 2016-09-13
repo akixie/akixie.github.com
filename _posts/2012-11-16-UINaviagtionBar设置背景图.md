@@ -1,21 +1,27 @@
+---
+layout: post
+title: "UINaviagtionBar设置背景图"
+comments: true
+description: ""
+keywords: "ios"
+---
 
-# UINaviagtionBar设置背景图
 
 代码：  
     @implementation UINavigationBar (CustomImage)
 
-    - (UIImage*)barBackground { 
+    - (UIImage*)barBackground {
       return[UIImage imageNamed:@"bg_header.png"];
     }
-    - (void)didMoveToSuperview { 
-      //iOS5 only 
-      if ([self respondsToSelector:@selector(setBackgroundImage:forBarMetrics:)]) { 
-        [self setBackgroundImage:[self barBackground] forBarMetrics:UIBarMetricsDefault]; 
+    - (void)didMoveToSuperview {
+      //iOS5 only
+      if ([self respondsToSelector:@selector(setBackgroundImage:forBarMetrics:)]) {
+        [self setBackgroundImage:[self barBackground] forBarMetrics:UIBarMetricsDefault];
       }
     }
     //this doesn't work on iOS5 but is needed for iOS4 and earlier
-    - (void)drawRect:(CGRect)rect { 
-      //draw image 
+    - (void)drawRect:(CGRect)rect {
+      //draw image
       [[self barBackground] drawInRect:rect];
     }
 

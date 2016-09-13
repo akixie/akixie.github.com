@@ -1,4 +1,10 @@
-## React Native—调用GPS经纬度。
+---
+layout: post
+title: "React Native—调用GPS经纬度"
+comments: true
+description: ""
+keywords: "React Native"
+---
 
 1. plist添加或编辑：NSLocationWhenInUseUsageDescription  ：PropertyFinder would like to use your location to find nearby properties
 

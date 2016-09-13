@@ -1,4 +1,11 @@
-# Objective-C中文排序
+---
+layout: post
+title: "Objective-C中文排序"
+comments: true
+description: ""
+keywords: "ios"
+---
+
 
 如果数组里面保存的是NSString，一般的排序方式：
 
@@ -26,5 +33,3 @@
       [NSSortDescriptor sortDescriptorWithKey:@"fullName" ascending:YES comparator:^NSComparisonResult(id obj1, id obj2) {
           ...
       }]];
-
-

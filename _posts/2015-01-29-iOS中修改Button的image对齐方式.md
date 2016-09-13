@@ -1,4 +1,12 @@
-# iOS中修改Button的image对齐方式
+---
+layout: post
+title: "iOS中修改Button的image对齐方式"
+comments: true
+description: ""
+keywords: "ios"
+---
+
+
 
 iOS里面给一个button设置图片有两个方法：setImage和setBackgroundImage。setImage图片会以原始尺寸居中显示，setBackgroundImage图片会拉伸到跟button一样大小。我想实现的是图片以aspect fill模式显示，即拉伸到整个button，但是不改变比例。
 

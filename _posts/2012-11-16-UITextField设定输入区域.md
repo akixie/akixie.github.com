@@ -1,5 +1,11 @@
+---
+layout: post
+title: "UITextField设定输入区域"
+comments: true
+description: ""
+keywords: "ios"
+---
 
-# UITextField设定输入区域
 
 UITextField设置边界为无之后，输入光标会从左边界开始。
 

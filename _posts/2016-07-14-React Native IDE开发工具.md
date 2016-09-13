@@ -1,4 +1,12 @@
-# IDE开发工具
+---
+layout: post
+title: "React Native IDE开发工具"
+comments: true
+description: ""
+keywords: "React Native"
+---
+
+## IDE开发工具
 开发工具安装与配置
 
 

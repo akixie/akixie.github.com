@@ -1,4 +1,11 @@
-# iOS进行Monkey测试
+---
+layout: post
+title: "iOS进行Monkey测试"
+comments: true
+description: ""
+keywords: "ios"
+---
+
 
 参考：
 <https://github.com/vigossjjj/CrashMonkey4IOS>

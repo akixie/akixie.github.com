@@ -1,4 +1,11 @@
-## Xcode Error - Could not launch app - No such file or directory Error
+---
+layout: post
+title: "Xcode Error - Could not launch app - No such file or directory Error"
+comments: true
+description: ""
+keywords: "ios"
+---
+
 
 
 Thats really annoying. This error happens in a number of different situations. Sometime restarting the Xcode, fixes the problem. If not, follow these steps:

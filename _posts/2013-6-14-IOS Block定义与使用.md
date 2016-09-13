@@ -1,4 +1,11 @@
-## IOS block
+---
+layout: post
+title: "IOS block定义与使用"
+comments: true
+description: ""
+keywords: "ios"
+---
+
 
 > Block经常用到也非常实用，下面是他的定义与使用。
 

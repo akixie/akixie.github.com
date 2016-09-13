@@ -1,4 +1,11 @@
-# IOS原有项目中集成React Native
+---
+layout: post
+title: "IOS原有项目中集成React Native"
+comments: true
+description: ""
+keywords: "React Native"
+---
+
 
 1. 创建package.json
 

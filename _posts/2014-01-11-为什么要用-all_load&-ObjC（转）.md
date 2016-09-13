@@ -1,5 +1,11 @@
+---
+layout: post
+title: "为什么要用-all_load&-ObjC（转）"
+comments: true
+description: ""
+keywords: "ios"
+---
 
-# 为什么要用-all_load&-ObjC（转）
 
 每次在加入静态库的时候都会在other linker flag里设置两个值：-all_load和-ObjC。
 很奇怪为什么要这样做，而且有的时候什么都不设置也不影响静态库的使用。
@@ -29,4 +35,3 @@ and every object file in that archive will be loaded.
 
 读了以上你明白了吧。
 无论如何还是把那两个flag的值都加上吧。这样可以保证你哪天突发奇想加了一堆category什么的oc牛X语法也不至于项目崩溃。
-

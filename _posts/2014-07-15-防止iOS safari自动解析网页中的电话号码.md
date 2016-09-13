@@ -1,4 +1,11 @@
-# 防止iOS safari自动解析网页中的电话号码
+---
+layout: post
+title: "防止iOS safari自动解析网页中的电话号码"
+comments: true
+description: ""
+keywords: "ios"
+---
+
 
 最近做了一个网页，里面有一串数字：1866139。在电脑的safari打开显示是正常的，但是iphone的safari打开很奇怪，这一串数字变成了蓝色的链接形式。
 
@@ -7,4 +14,3 @@
 解决办法就是在header里面加这样一个meta：
 
     <meta name="format-detection" content="telephone=no">
-

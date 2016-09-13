@@ -1,5 +1,11 @@
+---
+layout: post
+title: "tableview隐藏section"
+comments: true
+description: ""
+keywords: "ios"
+---
 
-# tableview隐藏section
 
 先设置
     tableView.sectionHeaderHeight = 0;
