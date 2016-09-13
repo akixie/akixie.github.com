@@ -1,8 +1,9 @@
 ---
 layout: page
-title: 关于我
+title: 
 permalink: /about/
 ---
+
 
 2007毕业后在aten从事C#开发。
 

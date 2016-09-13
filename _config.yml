@@ -1,27 +1,59 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: 谢传发
-email: aki.c.xie@gmail.com
-description: > # 谢传发个人博客 "baseurl:"
-  主要领域ios、android、ruby、java、react native.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://akixie.github.io/" # the base hostname & protocol for your site
-twitter_username: akixie1
-github_username:  akixie
+# SEO settings
+title: "谢传发"
+title2: "" # default: ""
+description: "主要领域ios、android、ruby、java、react native."
+keywords: "Jekyll, blog, web,ios android,ruby,java,react native"
+url: https://akixie.github.io/ # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-XXXXX-XX
+repo: https://github.com/akixie/akixie.github.com
+disqus_shortname: "akixie"
+twitter_username: "akixie1"
+comments: true
 
 # Build settings
-markdown: kramdown
-theme: minima
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Aki"
+  job      : "Software Engineer"
+  bio      : "a balance between binary and reality."
+  thumb    : /images/author.jpg
+  email    : aki.c.xie@gmail.com
+  url      : https://akixie.github.io/
+  github   : https://github.com/akixie
+  twitter  : https://twitter.com/akixie1
+  # facebook : https://www.facebook.com/profile.php?id=1257583160
+  # linkedin : http://linkedin.com/in/nrird
+
+# social settings
+# og_locale: "en_US"
+# twitter_card: "summary_large_image"
+# twitter_site: "@HeiswayiNrird"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: 关于我
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
