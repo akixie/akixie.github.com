@@ -2,7 +2,7 @@
 # SEO settings
 title: "谢传发"
 title2: "" # default: ""
-description: "主要领域ios、android、ruby、java、react native."
+description: "技术博客"
 keywords: "Jekyll, blog, web,ios android,ruby,java,react native"
 url: https://akixie.github.io/ # site url
 baseurl: "" # apply repo name if use it under gh-pages branch
