@@ -13,9 +13,11 @@ keywords: "React Native"
 查看版本记录
 
     code-push deployment ls Get_OP_IOS
+
 打包
 
     react-native bundle --platform ios --entry-file index.ios.js --bundle-output ./CodePush/main.jsbundle --assets-dest ./CodePush --dev false
+
 发布
 
     code-push release Get_OP_IOS ./CodePush 2.2.0  -d Production
@@ -33,9 +35,11 @@ keywords: "React Native"
 打包：
 
     react-native bundle --platform ios --entry-file index.ios.js --bundle-output ./CodePush/main.jsbundle --assets-dest ./CodePush --dev false
+
 发布：
 
     code-push release Get_OP_IOS ./CodePush 2.2.0  -d Staging --mandatory true
+
 检查测试环境安装情况：
 
     code-push deployment history Get_OP_IOS Staging
@@ -45,6 +49,7 @@ keywords: "React Native"
 从开发环境中最近版本，转到正式环境。
 
     code-push promote Get_OP_IOS Staging Production -r 20%
+
 
 
 ![](http://ww3.sinaimg.cn/mw690/6314d064gw1f7t8jcqdh9j20za0wewqi.jpg)
