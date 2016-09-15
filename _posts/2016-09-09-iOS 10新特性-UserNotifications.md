@@ -19,10 +19,14 @@ keywords: "ios10, UserNotifications"
 * 2.发送带有视频的通知
 
   ![](http://ww2.sinaimg.cn/mw690/6314d064gw1f7ruetb2n6j20eu0o0ade.jpg)
+
 * 3.发送带有 action 的通知
+
   ![](http://ww2.sinaimg.cn/mw690/6314d064gw1f7ruezh74ej20r20p8ae3.jpg)
 
+
 * 4.发送自定义UI通知
+
   ![](http://ww3.sinaimg.cn/mw690/6314d064gw1f7ruf7ib16j20f00o2dig.jpg)
 
 

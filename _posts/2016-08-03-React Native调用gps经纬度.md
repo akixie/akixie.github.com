@@ -6,28 +6,28 @@ description: ""
 keywords: "React Native"
 ---
 
-1. plist添加或编辑：NSLocationWhenInUseUsageDescription  ：PropertyFinder would like to use your location to find nearby properties
+1. plist添加或编辑：
+    NSLocationWhenInUseUsageDescription  ：PropertyFinder would like to use your location to find nearby properties
 
 2. Location 按钮的TouchableHighlight，然后为其添加下面的属性值：
-onPress={this.onLocationPressed.bind(this)}
+    onPress={this.onLocationPressed.bind(this)}
 3. 将下面的代码添加到 SearchPage 类中：
 
-  ```javascript
-onLocationPressed() {
-  navigator.geolocation.getCurrentPosition(
-    location => {
-      var search = location.coords.latitude + ',' + location.coords.longitude;
-      this.setState({ searchString: search });
-      var query = urlForQueryAndPage('centre_point', search, 1);
-      this._executeQuery(query);
-    },
-    error => {
-      this.setState({
-        message: 'There was a problem with obtaining your location: ' + error
-      });
-    });
-}
-  ```
+    onLocationPressed() {
+      navigator.geolocation.getCurrentPosition(
+        location => {
+            var search = location.coords.latitude + ',' + location.coords.longitude;
+            this.setState({ searchString: search });
+            var query = urlForQueryAndPage('centre_point', search, 1);
+            this._executeQuery(query);
+          },
+          error => {
+            this.setState({
+              message: 'There was a problem with obtaining your location: ' + error
+              });
+        });
+    }
+
 
 * 通过 navigator.geolocation 检索当前位置；这是一个 Web API 所定义的接口，所以对于每个在浏览器中使用 location 服务的用户来说这个接口都应该是一致的。React Native 框架借助原生的 iOS location 服务提供了自身的 API 实现。
 
